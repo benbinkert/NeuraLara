@@ -1,0 +1,15 @@
+controller_list:
+  - name: fake_moveit_lara5_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - lara5_joint1
+      - lara5_joint2
+      - lara5_joint3
+      - lara5_joint4
+      - lara5_joint5
+      - lara5_joint6
+initial:  # Define initial robot poses per group
+#  - group: moveit_lara5
+#    pose: home
+
+  []
