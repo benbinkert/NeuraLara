@@ -19,5 +19,11 @@
 # Nutzen von Pycharm als IDE
 mit `pycharm.sh` kann im terminal Pycharm geöffnert werden
 
+# Nutzen von Python dateien mitttels Rosrun
+**Vorbereitung:** die datei muss mittels ` chmod +x ~/catkin_ws/src/neura_moveitconfig_ben/scripts/<dateiname>` executebar gemacht werden
+`rosrun neura_moveitconfig_ben <dateiennamen>` Ordner für die dateien /home/gruppe1/catkin_ws/src/neura_moveitconfig_ben/scripts
+**Hinweis** in der python datei muss zwingend `#!/usr/bin/env python3` in der ersten zeile stehen 
+**Hinweis** möglicherweise muss der Code in /home/gruppe1/catkin_ws/src/neura_moveitconfig_ben/CMakeLists.txt geändert werden aber da habe ich noch keine Ahnung davon ( chatgpt)
+
 # Nächstes Ziele: 
  mit rosrun eine python datei auszuführen und diese bewegt den roboter. Ordner dafür wäre im im neura_moveitconfig_ben der scripts ordner
