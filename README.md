@@ -2,9 +2,9 @@
 
 ##  Schritte:
  **Vorbereitung:** ROS Interface auf dem Tablet aktivieren
-1. export ROS_MASTER_URI=http://192.168.2.13:11311/ <br/>
-   export ROS_IP=192.168.2.12<br/>
-   roslaunch neura_moveitconfig_ben  lara5_moveit_planning_execution.launch<br/>
+1. `export ROS_MASTER_URI=http://192.168.2.13:11311/` <br/>
+   `export ROS_IP=192.168.2.12`<br/>
+   `roslaunch neura_moveitconfig_ben  lara5_moveit_planning_execution.launch`<br/>
 
 3. in Rviz auf scene object dann auf die auswahl neben dem plus und mesh from file, dann in den ROS ordner und die STL datei auswählen.<br/>
    **Wichtig** ist sofort auf publish zu drücken und nach jedem Verändern der Kordinaten des Objects wieder auf publish zu drücken sonst abstutz. <br/>
@@ -15,6 +15,9 @@
 		einfach auf eine andere Position bewegen und erneut planen und executen
 
 **Hinweis:** bitte keine bash befehle autospeichern hat schon zu problemen mit Ros geführt
+
+# Nutzen von Pycharm als IDE
+mit `pycharm.sh` kann im terminal Pycharm geöffnert werden
 
 # Nächstes Ziele: 
  mit rosrun eine python datei auszuführen und diese bewegt den roboter. Ordner dafür wäre im im neura_moveitconfig_ben der scripts ordner
